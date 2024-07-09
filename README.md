@@ -1,4 +1,3 @@
 # Lab scripts
 
-data taking
-analysis
+data taking and analysis
