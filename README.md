@@ -1,1 +1,4 @@
-# lab
+# Lab scripts
+
+data taking
+analysis
