@@ -1,3 +1,17 @@
+'''
+Attenuation Linearity Measurement System
+Developed a Python script to measure and analyze the linearity of an attenuator device. The program interfaces with a digital multimeter (DMM) and a USB-controlled attenuator to collect voltage data across a range of attenuation settings. Key features include:
+
+    - Automated communication with hardware devices (DMM and attenuator) using serial and custom libraries.
+
+    - Calculation of attenuation factors and conversion from dB to voltage ratios.
+
+    - Statistical analysis of measured data, including mean and standard deviation.
+
+    - Visualization of results using matplotlib, comparing measured data to an ideal linear reference.
+
+    - Data saving and plotting functionality for further analysis.
+'''
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
