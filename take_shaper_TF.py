@@ -1,3 +1,12 @@
+'''
+ Python script that controls and collects data from various devices (an oscilloscope and a function generator) to measure and save waveform data across different voltage ranges for a specific channel on a given test module. Here's a compact summary of its functionality:
+
+    The script initializes communication with an oscilloscope (TEK_MSO64B) and a function generator (Keysight 33600A) based on specified IP addresses and serial numbers.
+    It sets up communication with a target module (connected to a test system) for device configuration and data acquisition.
+    The user provides a channel number through command-line arguments, which is used to configure the oscilloscope and function generator for measurement.
+    The script captures waveform data in three different voltage ranges: low, middle, and high, using the oscilloscope's readout capabilities while controlling the function generator's output.
+    The data is saved in a specific directory based on the channel number, and the script generates plots for each voltage range, saving the data in .npy format.
+'''
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
